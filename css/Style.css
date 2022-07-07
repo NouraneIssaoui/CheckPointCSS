@@ -1,3 +1,7 @@
+::selection{
+    color: white;
+    background: rgb(0, 152, 13);
+}
 header{
     background-color: aqua;
     font-size: xx-large;
@@ -8,35 +12,24 @@ header{
     font-size: medium;
     font-family: Lato;
 }
-.about{
-  
-    background: lightsalmon;
-    font-size: medium;
-    font-family: Lato;
+.btn{
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: wheat;
+    box-shadow: 0px 9px #999;
+    text-decoration: none;
 }
-
-.work{
-    background: lightsalmon;
-    font-size: medium;
-    font-family: Lato;
+.btn:hover{
+    background-color: rgb(164, 152, 152);
 }
-
-.resume{
-    background: lightsalmon;
-    font-size: medium;
-    font-family: Lato;
-}
-
-.contact{
-    background: lightsalmon;
-    font-size: medium;
-    font-family: Lato;
-}
-
-.contact me{
-    background: lightsalmon;
-    font-size: medium;
-    font-family: Lato;
+.btn:active{
+    background-color: rgb(73, 68, 68);
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
 }
 
 .fieldset{
